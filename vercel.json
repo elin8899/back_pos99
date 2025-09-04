@@ -14,16 +14,7 @@
     {
       "src": "/api/(.*)",
       "dest": "/index.js",
-      "methods": ["GET", "POST", "PUT", "DELETE", "PATCH", "OPTIONS"],
-      "headers": {
-        "Access-Control-Allow-Origin": "https://dashboard-elcshop.vercel.app, https://frontend-elcshop.vercel.app, http://localhost:3000, http://localhost:3001",
-        "Access-Control-Allow-Credentials": "true",
-        "Access-Control-Expose-Headers": "Set-Cookie, Authorization",
-        "Access-Control-Allow-Methods": "GET, POST, PUT, DELETE, PATCH, OPTIONS",
-        "Access-Control-Allow-Headers": "Content-Type, Authorization, X-Requested-With, Accept, Origin",
-        "X-Content-Type-Options": "nosniff",
-        "X-Frame-Options": "DENY"
-      }
+      "methods": ["GET", "POST", "PUT", "DELETE", "PATCH", "OPTIONS"]
     },
     {
       "src": "/(.*)",
